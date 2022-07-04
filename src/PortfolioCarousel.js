@@ -2,7 +2,8 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import "./App.css"
+import "./App.css";
+import {MarkGithubIcon} from '@primer/octicons-react';
 
 import img1 from "./images/1.jpg"
 import img2 from "./images/2.jpg"
@@ -12,7 +13,10 @@ function PortfolioCarousel(){
     return(
       <Carousel className="CarouselProperties">
         <div>
-          <img src={img1} />
+          <img src={img1}  />
+          <a href="https://github.com">
+            <MarkGithubIcon fill="#f00" size={100} />
+          </a>
           <p className="legend">Imdb Clone</p>
         </div>
         <div>

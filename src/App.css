@@ -58,6 +58,10 @@ body{
   text-align: center;
 }
 
+.carousel .slide .legend{
+  color: black;
+}
+
 @media screen and (max-width: 1000px){
   .carousel .slider-wrapper{
     height: 40vh;
