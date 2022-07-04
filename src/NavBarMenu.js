@@ -1,9 +1,10 @@
 import React from "react";
 import { Nav,Navbar,Container } from "react-bootstrap";
+import "./App.css"
 
 function NavBarMenu(){
   return(
-    <Navbar id="navCustom" bg="primary" variant="dark">
+    <Navbar className="NavBarCustom">
     <Container>
     <Navbar.Brand href="#home">TeoMastro</Navbar.Brand>
     <Nav className="me-auto">

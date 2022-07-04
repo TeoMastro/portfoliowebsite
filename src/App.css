@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: black;
+}
+
+.NavBarCustom{
+  background-color: #A7C5EB;
+}
+
+.CarouselProperties{
+  padding-top: 0;
+  padding-bottom: 0%;
+}
+
+.carousel .slider-wrapper{
+  height: 60vh;
+}
+
+.carousel .thumbs-wrapper{
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+  .carousel .slider-wrapper{
+    height: 40vh;
+  }
+}
+

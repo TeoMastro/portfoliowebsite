@@ -1,18 +1,29 @@
 import React from "react";
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import "./App.css"
+
+import img1 from "./images/1.jpg"
+import img2 from "./images/2.jpg"
+import img3 from "./images/3.png"
 
 function PortfolioCarousel(){
-    const handleDragStart = (e) => e.preventDefault();
-
-    const items = [
-      <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
-      <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
-      <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
-    ];
-  
     return(
-      <AliceCarousel mouseTracking items={items} />
+      <Carousel className="CarouselProperties">
+        <div>
+          <img src={img1} />
+          <p className="legend">Imdb Clone</p>
+        </div>
+        <div>
+          <img src={img2}  />
+          <p className="legend">Rating System</p>
+        </div>
+        <div>
+          <img src={img3}  />
+          <p className="legend">Machine Learning</p>
+        </div>
+      </Carousel>
     );
   }
   
