@@ -10,11 +10,11 @@ function App() {
         <div className='divNav'>
           <NavBarMenu/>
         </div>
-        <div className='divCarousel'>
-          <PortfolioCarousel/>
-        </div>
         <div>
           <Bio/>
+        </div>
+        <div className='divCarousel'>
+          <PortfolioCarousel/>
         </div>
       </>
   );
