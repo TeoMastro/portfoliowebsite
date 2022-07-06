@@ -5,27 +5,36 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "./App.css";
 import {MarkGithubIcon} from '@primer/octicons-react';
 
-import img1 from "./images/1.jpg"
-import img2 from "./images/2.jpg"
-import img3 from "./images/3.png"
-
 function PortfolioCarousel(){
     return(
       <Carousel className="CarouselProperties">
         <div>
-          <img src={img1}  />
+        <p className="carouselTitle">Imdb Clone</p>
           <a href="https://github.com">
-            <MarkGithubIcon fill="#f00" size={100} />
+            <MarkGithubIcon className="carouselImageButton" fill="#f00" size={150} />
           </a>
-          <p className="legend">Imdb Clone</p>
+          <p className="carouselDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
         <div>
-          <img src={img2}  />
-          <p className="legend">Rating System</p>
+          <p className="carouselTitle">Rating System</p>
+          <a href="https://github.com">
+              <MarkGithubIcon fill="#f00" size={100} />
+          </a>
+          <p className="carouselDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
         </div>
         <div>
-          <img src={img3}  />
-          <p className="legend">Machine Learning</p>
+          <p className="carouselTitle">Rating System</p>
+          <a href="https://github.com">
+              <MarkGithubIcon fill="#f00" size={100} />
+          </a>
+          <p className="carouselDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
+        </div>
+        <div>
+          <p className="carouselTitle">Troll System</p>
+          <a href="https://github.com">
+              <MarkGithubIcon fill="#f00" size={100} />
+          </a>
+          <p className="carouselDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
         </div>
       </Carousel>
     );

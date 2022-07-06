@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -37,10 +41,6 @@
   }
 }
 
-body{
-  background-color: black;
-}
-
 .NavBarCustom{
   background-color: #A7C5EB;
 }
@@ -62,9 +62,55 @@ body{
   color: black;
 }
 
+.carouselDescription{
+  font-size: 1rem;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-top: 5vh;
+}
+
+.carouselTitle{
+  margin-top: 5vh;
+  font-size: 3rem;
+}
+
+.carouselImageButton{
+  margin-top: 3vh;
+}
+
+.divBio{
+  margin-top: 10vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.bioTitle{
+  font-size: 3rem;
+}
+
+.footer{
+  background-color: #A7C5EB;
+  text-align: center;
+  padding-top: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+}
+
+.social-container{
+
+}
+
 @media screen and (max-width: 1000px){
   .carousel .slider-wrapper{
     height: 40vh;
+  }
+
+  .carouselImageButton{
+    margin-top: 0vh;
   }
 }
 
