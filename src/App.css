@@ -92,7 +92,6 @@ body{
   background-color: #A7C5EB;
   text-align: center;
   padding-top: 20px;
-  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
@@ -100,8 +99,23 @@ body{
   width: 100%;
 }
 
-.social-container{
+.socialsSpan{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
+.cvDiv{
+  height: 50vh;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+.CVTitle{
+  font-size: 3rem;
+}
+
+.pdfImage{
+  margin-top: 10vh;
 }
 
 @media screen and (max-width: 1000px){

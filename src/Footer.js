@@ -6,15 +6,21 @@ function Footer(){
         <div className="footer">
             <p>Created by Theodoros Mastromanolis</p>
             <p >
-                <a href="https://www.google.com">
-                    <FaFacebook />
-                </a>
-                <a href="https://www.google.com">
-                    <FaTwitter />
-                </a>
-                <a href="https://www.google.com">
-                    <FaLinkedin />
-                </a>
+                <span className="socialsSpan">
+                    <a href="https://www.google.com">
+                        <FaFacebook />
+                    </a>
+                </span>
+                <span className="socialsSpan">
+                    <a href="https://www.google.com">
+                        <FaTwitter />
+                    </a>
+                </span>
+                <span className="socialsSpan">
+                    <a href="https://www.google.com">
+                        <FaLinkedin />
+                    </a>
+                </span>
             </p>
         </div>
     );

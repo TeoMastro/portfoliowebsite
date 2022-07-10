@@ -5,13 +5,22 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "./App.css";
 import {MarkGithubIcon} from '@primer/octicons-react';
 
+var sizeOfImage=0;
+
+if(window.innerWidth<1000){
+  sizeOfImage=100;
+}
+else{
+  sizeOfImage=150;
+}
+
 function PortfolioCarousel(){
     return(
       <Carousel className="CarouselProperties">
         <div>
         <p className="carouselTitle">Imdb Clone</p>
           <a href="https://github.com">
-            <MarkGithubIcon className="carouselImageButton" fill="#f00" size={150} />
+            <MarkGithubIcon className="carouselImageButton" fill="#f00" size={sizeOfImage} />
           </a>
           <p className="carouselDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>

@@ -4,6 +4,7 @@ import NavBarMenu from './NavBarMenu';
 import PortfolioCarousel from './PortfolioCarousel';
 import Bio from './Bio';
 import Footer from './Footer';
+import CV from './Cv';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div className='divCarousel'>
           <PortfolioCarousel/>
+        </div>
+        <div>
+          <CV/>
         </div>
         <div>
           <Footer/>
