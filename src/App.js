@@ -5,6 +5,7 @@ import PortfolioCarousel from './PortfolioCarousel';
 import Bio from './Bio';
 import Footer from './Footer';
 import CV from './Cv';
+import ContactForm from './Contact'
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </div>
         <div>
           <CV/>
+        </div>
+        <div>
+          <ContactForm /> 
         </div>
         <div>
           <Footer/>
