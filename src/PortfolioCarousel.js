@@ -32,7 +32,7 @@ function PortfolioCarousel(){
         <div>
         <p className="carouselTitle">Imdb Clone</p>
           <a href="https://github.com">
-            <MarkGithubIcon className="carouselImageButton" fill="#f00" size={size} />
+            <MarkGithubIcon className="carouselImageButton" fill="#000B14" size={size} />
           </a>
           <p className="carouselDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
